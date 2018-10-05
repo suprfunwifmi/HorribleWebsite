@@ -1,0 +1,22 @@
+{
+  "name": "horrible_website",
+  "version": "1.0.0",
+  "description": "horrible",
+  "main": "app.js",
+  "scripts": {
+    "test": "console.log"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suprfunwifmi/HorribleWebsite.git"
+  },
+  "keywords": [
+    "horrible"
+  ],
+  "author": "Jason Millsom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suprfunwifmi/HorribleWebsite/issues"
+  },
+  "homepage": "https://github.com/suprfunwifmi/HorribleWebsite#readme"
+}
