@@ -1,10 +1,10 @@
 {
   "name": "horrible_website",
   "version": "1.0.0",
-  "description": "horrible",
-  "main": "app.js",
+  "description": "this is a horrible website",
+  "main": "index.js",
   "scripts": {
-    "test": "console.log"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/suprfunwifmi/HorribleWebsite/issues"
   },
-  "homepage": "https://github.com/suprfunwifmi/HorribleWebsite#readme"
+  "homepage": "https://github.com/suprfunwifmi/HorribleWebsite#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "pug": "^2.0.3",
+    "set-default-browser": "^1.0.1"
+  }
 }
