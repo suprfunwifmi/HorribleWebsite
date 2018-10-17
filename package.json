@@ -2,9 +2,9 @@
   "name": "horrible_website",
   "version": "1.0.0",
   "description": "this is a horrible website",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/suprfunwifmi/HorribleWebsite#readme",
   "dependencies": {
+    "animate.css": "^3.7.0",
     "express": "^4.16.3",
     "pug": "^2.0.3",
     "set-default-browser": "^1.0.1"
