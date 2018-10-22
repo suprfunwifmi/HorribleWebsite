@@ -1,20 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Yesteryear');
 @import url('https://fonts.googleapis.com/css?family=Mr Dafoe');
 
-@keyframes flickerEffect {
-    0% {
-        opacity: 1;
-    }
-
-    50% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
 body {
     background-color: black;
     /*background-image: linear-gradient(to bottom,#ff69c1 20%,black 80%);*/
@@ -51,30 +37,3 @@ body {
     color: #fff;
     text-shadow: 0 5px 50px #ff69c1;
 }
-
-.fade {
-    width: 200px;
-    height: 200px;
-    background: red;
-    opacity: 0;
-}
-
-.elementToFadeInAndOut {
-    animation: fadeInOut 4s linear forwards;
-}
-
-@keyframes fadeInOut {
-    0% {
-        opacity: 0;
-    }
-
-    50% {
-        opacity: 1;
-    }
-
-    100% {
-        opacity: 0;
-    }
-}
-
-/* This is for testing and improving 80s look*/

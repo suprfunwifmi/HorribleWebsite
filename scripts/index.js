@@ -1,22 +1,17 @@
 let horribleTitle = document.querySelector('.horribleTitle')
 
 
-
-const object1 = {
-    property1: 'property1',
-    property2: 1,
-    property3: false
+function objectTest(stringS, intI, boolB){
+    this.string =  stringS
+    this.int = intI
+    this.bool = boolB
 }
-
-const object2 = {
-    property1: 'property2',
-    property2: 2,
-    property3: true
-}
-
 
 
 function initializeObjects() {
+    var object1 = new objectTest("proberty",1,true)
+    var object2 = new objectTest("newProperty",2,false)
+    
     console.table({
         object1,
         object2
@@ -24,11 +19,6 @@ function initializeObjects() {
 }
 
 
-function enterHorribleWebsite() {
-    horribleTitle.addEventListener('click', function () {
-        horribleTitle.classList.add('elementToFadeInAndOut')
-        setTimeout(function () {
-            horribleTitle.classList.remove('elementToFadeInAndOut')
-        }, 4000)
-    })
+function enterTheHorror(){
+    
 }
